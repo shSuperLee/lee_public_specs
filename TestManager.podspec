@@ -21,15 +21,16 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/shSuperYang@126.com/TestManager'
+  s.homepage         = 'https://github.com/shSuperLee/testManager.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'shSuperYang@126.com' => 'shSuperYang@126.com' }
-  s.source           = { :git => 'https://github.com/shSuperYang@126.com/TestManager.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/shSuperLee/testManager.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
-
+  s.ios.deployment_target = '15.6'
+  s.user_target_xcconfig = {"EXCLUDED_ARCHS[sdk=iphonesimulator*]" => "arm64"}
+  s.pod_target_xcconfig = {"EXCLUDED_ARCHS[sdk=iphonesimulator*]" => "arm64"}
   s.source_files = 'TestManager/Classes/**/*'
   
   # s.resource_bundles = {

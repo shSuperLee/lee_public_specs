@@ -1,0 +1,28 @@
+{
+  "name": "TestManager",
+  "version": "0.1.0",
+  "summary": "A short description of TestManager.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/shSuperLee/testManager.git",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "shSuperYang@126.com": "shSuperYang@126.com"
+  },
+  "source": {
+    "git": "https://github.com/shSuperLee/testManager.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "15.6"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
+  },
+  "source_files": "TestManager/Classes/**/*"
+}

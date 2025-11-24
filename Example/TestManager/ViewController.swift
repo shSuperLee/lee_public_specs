@@ -7,12 +7,13 @@
 //
 
 import UIKit
+import TestManager
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        let manager = TestManager.shared
     }
 
     override func didReceiveMemoryWarning() {
