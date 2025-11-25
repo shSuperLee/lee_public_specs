@@ -27,3 +27,5 @@ shSuperYang@126.com, shSuperYang@126.com
 ## License
 
 TestManager is available under the MIT license. See the LICENSE file for more info.
+# lee_public_specs
+lee_public_specs
