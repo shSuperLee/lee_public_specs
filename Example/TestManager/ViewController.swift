@@ -14,8 +14,21 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         let manager = TestManager.shared
+        
     }
 
+    func requestApplePrice() async {
+        var goodsIdArr: [String] = []
+        do {
+            if let products = try await IAPProduct.products(for: goodsIdArr) {
+                
+            }
+        } catch {
+            
+        }
+    }
+    
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
